@@ -1,0 +1,298 @@
+📊 Types of Charts & Data Storytelling. 
+
+🧩 1. Introduction to Charts
+
+🔹 Concept
+Charts are visual representations of data.
+
+They help:
+- Simplify complex information
+- Identify trends and patterns
+- Compare values easily
+- Support decision-making
+
+🎯 Why Charts are Important
+
+Charts:
+- Make data easier to understand
+- Improve communication
+- Help tell stories using data
+
+🎯 Interview Point
+Charts transform raw data into visual insights that are easier to interpret.
+
+📈 2. Line Charts
+🔹 Concept
+Line charts are used to:
+- Compare related datasets
+- Show trends over time
+- Analyze continuous variables
+
+💡 Example
+Tracking:
+- Product sales over months
+- Website traffic over time
+
+🎯 Best Use Cases
+- Time-series analysis
+- Trend visualization
+
+🎯 Interview Point
+Line charts are ideal for displaying trends and continuous changes over time.
+
+🥧 3. Pie Charts
+
+🔹 Concept
+Pie charts show:
+- Parts of a whole
+- Percentage distribution
+
+The total always equals:
+100%
+
+💡 Example
+Marketing campaign distribution:
+- Social Media → 40%
+- Events → 20%
+- Influencers → 25%
+
+🎯 Best Use Cases
+Showing proportions
+Percentage comparisons
+
+⚠️ Limitation
+Not suitable for:
+- Too many categories
+- Detailed comparisons
+
+🎯 Interview Point
+"Pie charts are useful for displaying percentage contribution of categories."
+
+📊 4. Bar Charts
+
+🔹 Concept
+Bar charts compare values across categories.
+
+💡 Example
+Comparing:
+Population of countries
+Sales by region
+
+🎯 Advantages
+Easy to create
+Easy to interpret
+Most common chart type
+
+🎯 Best Use Cases
+Category comparison
+Ranking values
+
+🎯 Interview Point
+"Bar charts are best for comparing categorical data."
+
+📚 5. Stacked Bar Charts
+
+🔹 Concept
+A stacked bar chart divides each bar into smaller sections.
+
+Each section represents:
+A sub-category
+💡 Example
+
+Population split by:
+- Age groups
+- Gender
+- Regions
+
+🎯 Best Use Cases
+Comparing totals and composition together
+
+🎯 Interview Point
+"Stacked bar charts show both overall totals and category composition."
+
+📉 6. Column Charts
+
+🔹 Concept
+Column charts are vertical bar charts.
+
+They
+- Compare values
+- Show changes over time
+💡 Example
+
+Comparing:
+- Monthly sales
+- Website traffic
+
+🎯 Special Use
+
+Better for:
+Positive vs negative values
+
+⚠️ Important
+Column charts and bar charts look similar but are not always interchangeable.
+
+🎯 Interview Point
+"Column charts are useful for comparing values over time using vertical bars."
+
+🌳 7. Treemaps
+
+🔹 Concept
+Treemaps display hierarchical data using nested rectangles.
+
+💡 Example
+Employment rates:
+- Rectangle size → population
+- Color → employment rate
+
+🎯 Best Use Cases
+Hierarchical data
+Large category comparisons
+
+🎯 Interview Point
+"Treemaps efficiently represent hierarchical and proportional data."
+
+🔻 8. Funnel Charts
+🔹 Concept
+Funnel charts display stages in a process or pipeline.
+
+💡 Example
+Sales Funnel:
+- Leads
+- Prospects
+- Opportunities
+- Customers
+
+🎯 Best Use Cases
+Conversion analysis
+Process tracking
+
+🎯 Interview Point
+"Funnel charts are used to visualize stages in a business process."
+
+🎯 9. Scatter Charts
+
+🔹 Concept
+Scatter charts display relationships between variables.
+
+💡 Example
+Comparing:
+- Revenue vs units sold
+- Height vs weight
+
+🎯 Key Insights
+Scatter plots help identify:
+- Trends
+- Clusters
+- Correlations
+- Outliers
+
+🎯 Interview Point
+"Scatter plots help analyze relationships and correlations between variables."
+
+🫧 10. Bubble Charts
+🔹 Concept
+Bubble charts are advanced scatter plots.
+Additional feature:
+Bubble size represents another variable
+
+💡 Example
+Sales Budget Analysis:
+- X-axis → revenue
+- Y-axis → profit
+- Bubble size → expenditure
+
+🎯 Best Use Cases
+Multi-dimensional analysis
+
+🎯 Interview Point
+"Bubble charts visualize three variables simultaneously."
+
+📈 11. Sparklines
+
+🔹 Concept
+Sparklines are mini charts inside cells.
+
+They:
+- Do not include axes
+- Show trends quickly
+
+💡 Example
+Stock price movement during a trading day
+
+🎯 Best Use Cases
+- Compact trend analysis
+- Dashboard summaries
+
+🎯 Interview Point
+"Sparklines provide quick trend visualization in a compact form."
+
+📖 12. Data Storytelling with Visualizations
+
+🔹 Concept
+Visualization is not just about charts.
+
+It is about:
+👉 Communicating a story using data.
+💡 Why Storytelling Matters
+
+Visualizations help:
+- Explain insights clearly
+- Improve audience understanding
+- Support decision-making
+
+🧠 Important Insights from Experts
+🔹 Humans are Visual Creatures
+People understand visuals faster than raw numbers.
+🔹 Visuals Improve Engagement
+
+Charts help:
+* Gain stakeholder attention
+
+Improve communication
+🔹 Visualizations Simplify Complexity
+
+Large datasets become:
+* Easier to interpret
+* Easier to explain
+
+💡 Real-World Example
+A visualized resume built using Tableau helped a data analyst receive a job offer.
+
+🎯 Interview Point
+"Data storytelling combines visualization and analysis to communicate meaningful business insights."
+
+🚀 Final Summary
+🔹 Key Chart Types
+- Line Chart
+- Pie Chart
+- Bar Chart
+- Column Chart
+- Treemap
+- Funnel Chart
+- Scatter Plot
+- Bubble Chart
+- Sparklines
+
+💥 Key Takeaways
+- Choose charts based on data type
+- Visuals improve communication
+- Charts reveal patterns and trends
+- Storytelling is critical in analytics
+- Good visualization supports decision-making
+
+🧠 Choosing the Right Chart
+- Goal	Recommended Chart
+- Trends Over Time	Line Chart
+- Compare Categories	Bar / Column Chart
+- Show Percentages	Pie Chart
+- Relationship Between Variables	Scatter Plot
+- Process Stages	Funnel Chart
+- Hierarchical Data	Treemap
+
+🔥 Data Analyst Mindset
+* Before creating a chart, ask:
+- What story should this chart tell?
+- What insight is most important?
+- Who is the audience?
+- Which chart best explains the data?
