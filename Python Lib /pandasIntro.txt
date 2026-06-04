@@ -1,0 +1,273 @@
+DATA ANALYTICS NOTES
+IMPORTING AND EXPORTING DATA IN PYTHON
+
+====================================================
+
+1. BASIC INSIGHTS FROM DATA
+
+Concept:
+Before performing any analysis, understand your dataset.
+
+Why?
+- Helps identify errors
+- Detect missing values
+- Understand structure
+- Improve analysis accuracy
+
+Questions to Ask:
+1. What does the dataset contain?
+2. How many rows and columns are present?
+3. What are the data types?
+4. Are there missing values?
+5. Are the column names meaningful?
+
+Interview Point:
+Always understand the data before starting analysis.
+
+====================================================
+
+2. IMPORTING DATA IN PYTHON
+
+Concept:
+Importing data means loading data into Python from different sources.
+
+Two Important Properties:
+
+1. Data Format
+Examples:
+- CSV
+- JSON
+- Excel
+- SQL
+- HDF
+
+2. File Path
+
+Local File:
+Desktop/mydata.csv
+
+Internet Resource:
+https://archive.ics.uci.edu/dataset/10/automobile
+
+Interview Point:
+Data can be imported from local files, databases, and web resources.
+
+====================================================
+
+3. PANDAS LIBRARY
+
+Concept:
+Pandas is the most popular Python library for data analysis.
+
+Import Pandas:
+
+import pandas as pd
+
+Uses:
+- Read data
+- Clean data
+- Analyze data
+- Export data
+
+====================================================
+
+4. IMPORTING CSV FILES
+
+Read CSV File:
+
+df = pd.read_csv("data.csv")
+
+Read CSV Without Headers:
+
+df = pd.read_csv(url, header=None)
+
+Explanation:
+header=None tells Pandas that the dataset has no column names.
+
+Default Columns:
+0, 1, 2, 3, ...
+
+Interview Point:
+Use header=None when importing files without column headers.
+
+====================================================
+
+5. VIEWING DATA
+
+Display Entire DataFrame:
+
+print(df)
+
+or
+
+df
+
+Note:
+Not recommended for large datasets.
+
+----------------------------------------------------
+
+View First Rows
+
+df.head()
+
+Default:
+df.head(5)
+
+Purpose:
+Shows first 5 rows.
+
+----------------------------------------------------
+
+View Last Rows
+
+df.tail()
+
+Default:
+df.tail(5)
+
+Purpose:
+Shows last 5 rows.
+
+Interview Point:
+head() and tail() are used to quickly inspect data.
+
+====================================================
+
+6. ADDING COLUMN HEADERS
+
+Problem:
+Datasets without headers show columns as:
+
+0 1 2 3 4 ...
+
+Solution:
+Create a list of meaningful column names.
+
+Example:
+
+headers = [
+"symboling",
+"normalized-losses",
+"make",
+"fuel-type",
+"price"
+]
+
+Assign Headers:
+
+df.columns = headers
+
+Benefits:
+- Better readability
+- Easier analysis
+- Easier visualization
+
+Interview Point:
+Meaningful headers improve data understanding.
+
+====================================================
+
+7. EXPORTING DATA
+
+Concept:
+Exporting means saving processed data.
+
+Reasons:
+- Save progress
+- Share data
+- Store cleaned data
+- Use later
+
+====================================================
+
+8. EXPORTING TO CSV
+
+Example:
+
+path = "automobile.csv"
+
+df.to_csv(path)
+
+Purpose:
+Saves DataFrame as a CSV file.
+
+Interview Point:
+to_csv() exports data into CSV format.
+
+====================================================
+
+9. OTHER EXPORT FORMATS
+
+CSV
+Read : pd.read_csv()
+Write: df.to_csv()
+
+JSON
+Read : pd.read_json()
+Write: df.to_json()
+
+EXCEL
+Read : pd.read_excel()
+Write: df.to_excel()
+
+SQL
+Read : pd.read_sql()
+Write: df.to_sql()
+
+====================================================
+
+10. DATA ANALYTICS WORKFLOW
+
+Collect Data
+      ↓
+Import Data
+      ↓
+Inspect Data
+      ↓
+Add Headers
+      ↓
+Clean Data
+      ↓
+Analyze Data
+      ↓
+Visualize Data
+      ↓
+Export Results
+
+====================================================
+
+KEY TAKEAWAYS
+
+- Understand data before analysis.
+- Pandas is essential for data analysis.
+- Use read_csv() to import CSV files.
+- Use header=None for datasets without column names.
+- Use head() and tail() to inspect data.
+- Use df.columns to add headers.
+- Export data using to_csv(), to_json(), to_excel(), and to_sql().
+
+====================================================
+
+INTERVIEW QUESTIONS
+
+Q1. What is data importing?
+Loading data from files, databases, or web resources into Python.
+
+Q2. What does header=None do?
+It tells Pandas that the dataset does not contain column names.
+
+Q3. Why use head()?
+To view the first few records of a dataset.
+
+Q4. Why add headers?
+To improve readability and analysis.
+
+Q5. How do you export a DataFrame?
+Using:
+- to_csv()
+- to_json()
+- to_excel()
+- to_sql()
+
+====================================================
